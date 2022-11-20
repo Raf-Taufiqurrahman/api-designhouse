@@ -22,7 +22,6 @@ return new class extends Migration
             $table->string('tagline')->nullable();
             $table->string('about')->nullable();
             $table->string('location')->nullable();
-            $table->string('formatted_address')->nullable();
             $table->boolean('available_to_hire')->default(false);
             $table->string('password');
             $table->rememberToken();
